@@ -113,7 +113,7 @@ p {
   header .redes{
     width: 100%;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     border-top: 5px solid rgba(255,255,255,.5);
     border-bottom: 5px solid rgba(255,255,255,.5);
 
@@ -122,11 +122,11 @@ p {
   .logo {
     display: block;
     float: center;
-    height: 120px;
+    height: 110px;
     margin: auto;
     padding-left: 0;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 
 
