@@ -28,7 +28,7 @@ header {
 
 #whatsapp{
     position: fixed;
-    right: 20px;
+    right: 30px;
     bottom: 70px;
     display:none;
 
@@ -46,9 +46,9 @@ header .redes{
 
 article {
   font-size: 14px;
-  padding: 50px 90px;
+  padding: 50px 200px;
   border-bottom: 2.5px solid rgba(255,245,233,.5);
-}
+  }
 
 p {
   font-weight: 300;
@@ -85,6 +85,11 @@ p {
 
 
 @media (max-width: 1000px) {
+
+  article {
+  padding: 50px 110px;
+  border-bottom: 2.5px solid rgba(255,245,233,.5);
+  }
 
 
   .ingreso {
@@ -129,7 +134,10 @@ p {
     padding-bottom: 10px;
   }
 
-
+  article {
+  padding: 50px 90px;
+  border-bottom: 2.5px solid rgba(255,245,233,.5);
+  }
   
   .ingreso {
     display: none;
