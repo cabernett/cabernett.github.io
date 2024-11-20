@@ -46,7 +46,7 @@ header .redes{
 
 article {
   font-size: 14px;
-  padding: 50px 200px;
+  padding: 50px 350px;
   border-bottom: 2.5px solid rgba(255,245,233,.5);
   }
 
@@ -82,12 +82,18 @@ p {
 }
 
 
+@media (max-width: 1500px) {
+
+  article {
+  padding: 50px 250px;
+  }
+}
 
 
 @media (max-width: 1000px) {
 
   article {
-  padding: 50px 110px;
+  padding: 50px 150px;
   border-bottom: 2.5px solid rgba(255,245,233,.5);
   }
 
@@ -135,7 +141,7 @@ p {
   }
 
   article {
-  padding: 50px 90px;
+  padding: 50px 135px;
   border-bottom: 2.5px solid rgba(255,245,233,.5);
   }
   
