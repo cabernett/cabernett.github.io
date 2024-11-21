@@ -71,9 +71,8 @@ p {
 }
 
 .flex-container {
-  padding: 20px 20px 20px 230px;
+  padding: 70px 20px 60px 350px;
   flex-direction: column;
-  background-color: ;
 }
 
 .flex-container-redes {
@@ -102,6 +101,11 @@ p {
 
   article {
   padding: 50px 250px;
+  }
+
+  .flex-container {
+  padding: 70px 20px 60px 255px;
+  flex-direction: column;
   }
 }
 
@@ -178,6 +182,6 @@ p {
   }
 
   .flex-container {
-  padding: 20px 20px 20px 70px;
+  padding: 70px 20px 40px 70px;
   }
 }
