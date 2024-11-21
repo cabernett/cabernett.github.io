@@ -1,0 +1,183 @@
+* {
+  padding:0;
+  margin:0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body{   
+    font-family:lato,sans-serif;  
+}
+
+header { 
+    display: inline-block;
+    background-color: #FFF5E8;
+    width: 100%;
+    height: 90px;   
+} 
+
+header .logo {
+  width: 100%;
+  height: 70px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+#whatsapp{
+    position: fixed;
+    right: 30px;
+    bottom: 70px;
+    display:none;
+
+}
+
+.redes{
+  width: 100%;  
+  font-size: 1.2em; 
+  padding: 30px;
+  text-align: center;
+  justify-content: space-between;
+}
+
+article {
+  font-size: 14px;
+  padding: 50px 350px;
+  border-bottom: 2.5px solid rgba(255,245,233,.5);
+  }
+
+p {
+  font-weight: 300;
+  text-align:center; 
+  font-size: 1.2em;
+  line-height:1.7em;
+}
+
+.ingreso {
+  display: flex;
+  width: 100%;
+}
+
+.ingreso1000{
+  display: none;
+}
+
+.ingresomovil {
+  display: none;
+}
+
+.producto {
+  width: 100%;
+}
+
+.flex-container {
+  padding: 20px 20px 20px 230px;
+  flex-direction: column;
+  background-color: #F0F8FF;
+}
+
+.flex-container-redes {
+  display: flex;
+
+  height: 45px;
+ 
+  }
+
+.flex-container-redes p {
+  font-size: 16px;
+  margin-left: 5px;
+  }
+
+
+
+.footer {
+    font-size: 12px;
+    background-color: #FFF5E8;
+    text-align:center;
+    padding:15px;
+}
+
+
+@media (max-width: 1500px) {
+
+  article {
+  padding: 50px 250px;
+  }
+}
+
+
+@media (max-width: 1000px) {
+
+  article {
+  padding: 50px 150px;
+  border-bottom: 2.5px solid rgba(255,245,233,.5);
+  }
+
+
+  .ingreso {
+    display: none;
+  }
+  
+  .ingreso1000 {
+    display: block;
+  }
+
+  .ingresomovil {
+    display: none;
+  }
+
+  .flex-container {
+  padding: 20px 20px 20px 100px;
+
+}
+
+@media (max-width: 700px) {
+
+  header { 
+        height: auto; 
+        border-bottom: none;      
+  } 
+  
+  header .redes{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    border-top: 5px solid rgba(255,255,255,.5);
+    border-bottom: 5px solid rgba(255,255,255,.5);
+
+  }
+
+  .logo {
+    display: block;
+    float: center;
+    height: 75px;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  article {
+  padding: 50px 70px;
+  border-bottom: 2.5px solid rgba(255,245,233,.5);
+  }
+  
+  .ingreso {
+    display: none;
+  }
+  .ingreso1000 {
+    display: none;
+  }
+  .ingresomovil {
+    display: block;
+  }
+
+
+  .producto {
+    width: 100%;
+    height: auto;
+  }
+
+  .flex-container {
+  padding: 20px 20px 20px 70px;
+  }
+}
